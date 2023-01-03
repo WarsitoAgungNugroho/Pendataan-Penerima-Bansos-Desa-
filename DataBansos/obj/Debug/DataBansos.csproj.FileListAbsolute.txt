@@ -9,3 +9,14 @@ D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.csproj.CoreCompileInput
 D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.exe
 D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.pdb
 D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.Home.resources
+D:\berta\Pendataan-Penerima-Bansos-Desa--main\DataBansos\bin\Debug\DataBansos.exe.config
+D:\berta\Pendataan-Penerima-Bansos-Desa--main\DataBansos\bin\Debug\DataBansos.exe
+D:\berta\Pendataan-Penerima-Bansos-Desa--main\DataBansos\bin\Debug\DataBansos.pdb
+D:\berta\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.csproj.AssemblyReference.cache
+D:\berta\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.Form1.resources
+D:\berta\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.Home.resources
+D:\berta\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.Properties.Resources.resources
+D:\berta\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.csproj.GenerateResource.cache
+D:\berta\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.csproj.CoreCompileInputs.cache
+D:\berta\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.exe
+D:\berta\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.pdb
