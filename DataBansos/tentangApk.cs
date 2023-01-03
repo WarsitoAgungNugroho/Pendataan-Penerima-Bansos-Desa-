@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace DataBansos
 {
-    public partial class Home : Form
+    public partial class tentangApk : Form
     {
-        public Home()
+        public tentangApk()
         {
             InitializeComponent();
-        }
-
-        private void btntentangaplikasi_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            tentangApk panggil = new tentangApk();
-            panggil.Show();
         }
     }
 }

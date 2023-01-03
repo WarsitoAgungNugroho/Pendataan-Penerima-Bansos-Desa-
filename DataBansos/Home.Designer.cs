@@ -31,6 +31,12 @@ namespace DataBansos
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.pnlContent = new System.Windows.Forms.Panel();
+            this.pnlTop = new System.Windows.Forms.Panel();
+            this.pnlControl = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnminimize = new System.Windows.Forms.Button();
+            this.btnmaximize = new System.Windows.Forms.Button();
+            this.btnclose = new System.Windows.Forms.Button();
             this.Panel1 = new System.Windows.Forms.Panel();
             this.Button4 = new System.Windows.Forms.Button();
             this.lblSelected2 = new System.Windows.Forms.Label();
@@ -39,18 +45,12 @@ namespace DataBansos
             this.btnInputanData = new System.Windows.Forms.Button();
             this.btntentangaplikasi = new System.Windows.Forms.Button();
             this.pnlLeft = new System.Windows.Forms.Panel();
-            this.pnlTop = new System.Windows.Forms.Panel();
-            this.pnlControl = new System.Windows.Forms.Panel();
-            this.btnminimize = new System.Windows.Forms.Button();
-            this.btnmaximize = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnclose = new System.Windows.Forms.Button();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlContent.SuspendLayout();
-            this.Panel1.SuspendLayout();
-            this.pnlLeft.SuspendLayout();
             this.pnlTop.SuspendLayout();
             this.pnlControl.SuspendLayout();
+            this.Panel1.SuspendLayout();
+            this.pnlLeft.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,6 +64,77 @@ namespace DataBansos
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.Size = new System.Drawing.Size(861, 619);
             this.pnlContent.TabIndex = 8;
+            // 
+            // pnlTop
+            // 
+            this.pnlTop.BackColor = System.Drawing.Color.Silver;
+            this.pnlTop.Controls.Add(this.pnlControl);
+            this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlTop.Location = new System.Drawing.Point(0, 0);
+            this.pnlTop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlTop.Name = "pnlTop";
+            this.pnlTop.Size = new System.Drawing.Size(861, 43);
+            this.pnlTop.TabIndex = 5;
+            // 
+            // pnlControl
+            // 
+            this.pnlControl.Controls.Add(this.button1);
+            this.pnlControl.Controls.Add(this.btnminimize);
+            this.pnlControl.Controls.Add(this.btnmaximize);
+            this.pnlControl.Controls.Add(this.btnclose);
+            this.pnlControl.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlControl.Location = new System.Drawing.Point(760, 0);
+            this.pnlControl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlControl.Name = "pnlControl";
+            this.pnlControl.Size = new System.Drawing.Size(101, 43);
+            this.pnlControl.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::DataBansos.Properties.Resources.maximize15px;
+            this.button1.Location = new System.Drawing.Point(38, 10);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(24, 22);
+            this.button1.TabIndex = 5;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnminimize
+            // 
+            this.btnminimize.FlatAppearance.BorderSize = 0;
+            this.btnminimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnminimize.Image = global::DataBansos.Properties.Resources.minimize15px;
+            this.btnminimize.Location = new System.Drawing.Point(7, 10);
+            this.btnminimize.Margin = new System.Windows.Forms.Padding(4);
+            this.btnminimize.Name = "btnminimize";
+            this.btnminimize.Size = new System.Drawing.Size(24, 22);
+            this.btnminimize.TabIndex = 4;
+            this.btnminimize.UseVisualStyleBackColor = true;
+            // 
+            // btnmaximize
+            // 
+            this.btnmaximize.FlatAppearance.BorderSize = 0;
+            this.btnmaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmaximize.Location = new System.Drawing.Point(39, 10);
+            this.btnmaximize.Margin = new System.Windows.Forms.Padding(4);
+            this.btnmaximize.Name = "btnmaximize";
+            this.btnmaximize.Size = new System.Drawing.Size(24, 22);
+            this.btnmaximize.TabIndex = 3;
+            this.btnmaximize.UseVisualStyleBackColor = true;
+            // 
+            // btnclose
+            // 
+            this.btnclose.FlatAppearance.BorderSize = 0;
+            this.btnclose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnclose.Image = global::DataBansos.Properties.Resources.close15px;
+            this.btnclose.Location = new System.Drawing.Point(71, 10);
+            this.btnclose.Margin = new System.Windows.Forms.Padding(4);
+            this.btnclose.Name = "btnclose";
+            this.btnclose.Size = new System.Drawing.Size(24, 22);
+            this.btnclose.TabIndex = 2;
+            this.btnclose.UseVisualStyleBackColor = true;
             // 
             // Panel1
             // 
@@ -144,6 +215,7 @@ namespace DataBansos
             this.btntentangaplikasi.TabIndex = 0;
             this.btntentangaplikasi.Text = "Tentang Aplikasi";
             this.btntentangaplikasi.UseVisualStyleBackColor = true;
+            this.btntentangaplikasi.Click += new System.EventHandler(this.btntentangaplikasi_Click);
             // 
             // pnlLeft
             // 
@@ -161,77 +233,6 @@ namespace DataBansos
             this.pnlLeft.Name = "pnlLeft";
             this.pnlLeft.Size = new System.Drawing.Size(276, 619);
             this.pnlLeft.TabIndex = 6;
-            // 
-            // pnlTop
-            // 
-            this.pnlTop.BackColor = System.Drawing.Color.Silver;
-            this.pnlTop.Controls.Add(this.pnlControl);
-            this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlTop.Location = new System.Drawing.Point(0, 0);
-            this.pnlTop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(861, 43);
-            this.pnlTop.TabIndex = 5;
-            // 
-            // pnlControl
-            // 
-            this.pnlControl.Controls.Add(this.button1);
-            this.pnlControl.Controls.Add(this.btnminimize);
-            this.pnlControl.Controls.Add(this.btnmaximize);
-            this.pnlControl.Controls.Add(this.btnclose);
-            this.pnlControl.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlControl.Location = new System.Drawing.Point(760, 0);
-            this.pnlControl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlControl.Name = "pnlControl";
-            this.pnlControl.Size = new System.Drawing.Size(101, 43);
-            this.pnlControl.TabIndex = 0;
-            // 
-            // btnminimize
-            // 
-            this.btnminimize.FlatAppearance.BorderSize = 0;
-            this.btnminimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnminimize.Image = global::DataBansos.Properties.Resources.minimize15px;
-            this.btnminimize.Location = new System.Drawing.Point(7, 10);
-            this.btnminimize.Margin = new System.Windows.Forms.Padding(4);
-            this.btnminimize.Name = "btnminimize";
-            this.btnminimize.Size = new System.Drawing.Size(24, 22);
-            this.btnminimize.TabIndex = 4;
-            this.btnminimize.UseVisualStyleBackColor = true;
-            // 
-            // btnmaximize
-            // 
-            this.btnmaximize.FlatAppearance.BorderSize = 0;
-            this.btnmaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmaximize.Location = new System.Drawing.Point(39, 10);
-            this.btnmaximize.Margin = new System.Windows.Forms.Padding(4);
-            this.btnmaximize.Name = "btnmaximize";
-            this.btnmaximize.Size = new System.Drawing.Size(24, 22);
-            this.btnmaximize.TabIndex = 3;
-            this.btnmaximize.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::DataBansos.Properties.Resources.maximize15px;
-            this.button1.Location = new System.Drawing.Point(38, 10);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(24, 22);
-            this.button1.TabIndex = 5;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // btnclose
-            // 
-            this.btnclose.FlatAppearance.BorderSize = 0;
-            this.btnclose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnclose.Image = global::DataBansos.Properties.Resources.close15px;
-            this.btnclose.Location = new System.Drawing.Point(71, 10);
-            this.btnclose.Margin = new System.Windows.Forms.Padding(4);
-            this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(24, 22);
-            this.btnclose.TabIndex = 2;
-            this.btnclose.UseVisualStyleBackColor = true;
             // 
             // PictureBox1
             // 
@@ -255,10 +256,10 @@ namespace DataBansos
             this.Name = "Home";
             this.Text = "Home";
             this.pnlContent.ResumeLayout(false);
-            this.Panel1.ResumeLayout(false);
-            this.pnlLeft.ResumeLayout(false);
             this.pnlTop.ResumeLayout(false);
             this.pnlControl.ResumeLayout(false);
+            this.Panel1.ResumeLayout(false);
+            this.pnlLeft.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
