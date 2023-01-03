@@ -1,0 +1,11 @@
+D:\ITO\PRONET\DataBansos\DataBansos\bin\Debug\DataBansos.exe.config
+D:\ITO\PRONET\DataBansos\DataBansos\bin\Debug\DataBansos.exe
+D:\ITO\PRONET\DataBansos\DataBansos\bin\Debug\DataBansos.pdb
+D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.csproj.AssemblyReference.cache
+D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.Form1.resources
+D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.Properties.Resources.resources
+D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.csproj.GenerateResource.cache
+D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.csproj.CoreCompileInputs.cache
+D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.exe
+D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.pdb
+D:\ITO\PRONET\DataBansos\DataBansos\obj\Debug\DataBansos.Home.resources
