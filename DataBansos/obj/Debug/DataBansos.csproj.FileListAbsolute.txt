@@ -43,3 +43,15 @@ D:\husni\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.cs
 D:\husni\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.csproj.CoreCompileInputs.cache
 D:\husni\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.exe
 D:\husni\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.pdb
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\bin\Debug\DataBansos.exe.config
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\bin\Debug\DataBansos.exe
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\bin\Debug\DataBansos.pdb
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.csproj.AssemblyReference.cache
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.Form1.resources
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.Home.resources
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.Properties.Resources.resources
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.tentangApk.resources
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.csproj.GenerateResource.cache
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.csproj.CoreCompileInputs.cache
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.exe
+D:\nugrohoeka\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.pdb
