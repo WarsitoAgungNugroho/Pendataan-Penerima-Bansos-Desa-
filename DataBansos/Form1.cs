@@ -20,8 +20,8 @@ namespace DataBansos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection koneksi = new SqlConnection("Data Source=(local);Initial Catalog=bansosDesaBeji;Integrated Security=True");
-            SqlDataAdapter sda = new SqlDataAdapter("select count (*) from Login where NamaUser = '" + txtuser.Text + "' and Password = '" + txtpsw.Text + "'", koneksi);
+            SqlConnection koneksi = new SqlConnection("Data Source=(local);Initial Catalog=bansosDesa;Integrated Security=True");
+            SqlDataAdapter sda = new SqlDataAdapter("select count (*) from Admin where NamaUser = '" + txtuser.Text + "' and Password = '" + txtpsw.Text + "'", koneksi);
             DataTable dt = new DataTable();
             sda.Fill(dt);
             if (dt.Rows[0][0].ToString() == "1")

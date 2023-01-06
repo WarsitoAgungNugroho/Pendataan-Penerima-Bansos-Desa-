@@ -135,6 +135,7 @@ namespace DataBansos
             this.btnclose.Size = new System.Drawing.Size(24, 22);
             this.btnclose.TabIndex = 2;
             this.btnclose.UseVisualStyleBackColor = true;
+            this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
             // 
             // Panel1
             // 
@@ -202,6 +203,7 @@ namespace DataBansos
             this.btnInputanData.TabIndex = 2;
             this.btnInputanData.Text = "Inputan Data ";
             this.btnInputanData.UseVisualStyleBackColor = true;
+            this.btnInputanData.Click += new System.EventHandler(this.btnInputanData_Click);
             // 
             // btntentangaplikasi
             // 
@@ -255,6 +257,7 @@ namespace DataBansos
             this.Controls.Add(this.pnlLeft);
             this.Name = "Home";
             this.Text = "Home";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlContent.ResumeLayout(false);
             this.pnlTop.ResumeLayout(false);
             this.pnlControl.ResumeLayout(false);

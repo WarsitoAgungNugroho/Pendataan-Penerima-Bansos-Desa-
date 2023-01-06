@@ -75,6 +75,7 @@ namespace DataBansos
             this.txtpsw.Name = "txtpsw";
             this.txtpsw.Size = new System.Drawing.Size(230, 22);
             this.txtpsw.TabIndex = 3;
+            this.txtpsw.UseSystemPasswordChar = true;
             // 
             // button1
             // 

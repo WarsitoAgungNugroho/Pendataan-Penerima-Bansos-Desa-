@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace DataBansos
 {
-    public partial class tentangApk : Form
+    public partial class inputData : Form
     {
-        public tentangApk()
+        public inputData()
         {
             InitializeComponent();
         }
 
-        private void btnback_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             Home panggil = new Home();

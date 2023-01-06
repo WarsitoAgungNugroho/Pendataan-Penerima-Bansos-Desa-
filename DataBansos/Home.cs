@@ -23,5 +23,19 @@ namespace DataBansos
             tentangApk panggil = new tentangApk();
             panggil.Show();
         }
+
+        private void btnInputanData_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            inputData panggil = new inputData();
+            panggil.Show();
+        }
+
+        private void btnclose_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 panggil = new Form1();
+            panggil.Show();
+        }
     }
 }
