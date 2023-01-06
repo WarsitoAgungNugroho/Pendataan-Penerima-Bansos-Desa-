@@ -171,6 +171,7 @@ namespace DataBansos
             this.btnTambah.TabIndex = 117;
             this.btnTambah.Text = "Tambah";
             this.btnTambah.UseVisualStyleBackColor = true;
+            this.btnTambah.Click += new System.EventHandler(this.btnTambah_Click);
             // 
             // Label5
             // 
@@ -213,6 +214,7 @@ namespace DataBansos
             this.btnBrowse.TabIndex = 115;
             this.btnBrowse.Text = "Browse";
             this.btnBrowse.UseVisualStyleBackColor = true;
+            this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
             // 
             // Label7
             // 
@@ -307,6 +309,7 @@ namespace DataBansos
             this.rbPria.TabStop = true;
             this.rbPria.Text = "Pria";
             this.rbPria.UseVisualStyleBackColor = true;
+            this.rbPria.CheckedChanged += new System.EventHandler(this.rbPria_CheckedChanged);
             // 
             // rbWanita
             // 
@@ -320,6 +323,7 @@ namespace DataBansos
             this.rbWanita.TabStop = true;
             this.rbWanita.Text = "Wanita";
             this.rbWanita.UseVisualStyleBackColor = true;
+            this.rbWanita.CheckedChanged += new System.EventHandler(this.rbWanita_CheckedChanged);
             // 
             // button1
             // 
