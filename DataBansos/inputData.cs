@@ -55,6 +55,7 @@ namespace DataBansos
             dateTimePicker1.Value = DateTime.Now;
             txtNoTelp.Text = "";
             Foto.ImageLocation = null;
+            display_data();
             MessageBox.Show("Data Insert Successfully");
         }
 
@@ -77,6 +78,39 @@ namespace DataBansos
                 imglocation = dialog.FileName.ToString();
                 Foto.ImageLocation = imglocation;
             }
+        }
+
+        public void display_data()
+        {
+            koneksi.Open();
+            SqlCommand cmd = koneksi.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select * from [penerima]";
+            cmd.ExecuteNonQuery();
+            DataTable dta = new DataTable();
+            SqlDataAdapter dataadp = new SqlDataAdapter(cmd);
+            dataadp.Fill(dta);
+            dgvBansos.DataSource = dta;
+            koneksi.Close();
+        }
+
+        private void btnDisplay_Click(object sender, EventArgs e)
+        {
+            display_data();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtKK.Text = "";
+            txtNIK.Text = "";
+            txtNama.Text = "";
+            txtAlamat.Text = "";
+            rbPria.Checked = false;
+            rbWanita.Checked = false;
+            txtTempat.Text = "";
+            dateTimePicker1.Value = DateTime.Now;
+            txtNoTelp.Text = "";
+            Foto.ImageLocation = null;
         }
     }
 }

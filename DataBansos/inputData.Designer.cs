@@ -89,6 +89,7 @@ namespace DataBansos
             this.btnDisplay.TabIndex = 122;
             this.btnDisplay.Text = "Display";
             this.btnDisplay.UseVisualStyleBackColor = true;
+            this.btnDisplay.Click += new System.EventHandler(this.btnDisplay_Click);
             // 
             // txtCari
             // 
@@ -193,6 +194,7 @@ namespace DataBansos
             this.btnClear.TabIndex = 116;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // Label6
             // 
