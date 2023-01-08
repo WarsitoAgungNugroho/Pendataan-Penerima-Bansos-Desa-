@@ -108,6 +108,7 @@ namespace DataBansos
             this.btnCari.TabIndex = 120;
             this.btnCari.Text = "Cari ";
             this.btnCari.UseVisualStyleBackColor = true;
+            this.btnCari.Click += new System.EventHandler(this.btnCari_Click);
             // 
             // Label2
             // 
@@ -130,6 +131,7 @@ namespace DataBansos
             this.btnUpdate.TabIndex = 119;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // Label3
             // 

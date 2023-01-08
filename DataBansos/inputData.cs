@@ -125,5 +125,46 @@ namespace DataBansos
             display_data();
             MessageBox.Show("Data Delete Successfully");
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            byte[] images = null;
+            FileStream stream = new FileStream(imglocation, FileMode.Open, FileAccess.Read);
+            BinaryReader brs = new BinaryReader(stream);
+            images = brs.ReadBytes((int)stream.Length);
+            koneksi.Open();
+            SqlCommand cmd = koneksi.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "update [penerima] set namaPenerima='" + this.txtNama.Text + "',noKK ='" + this.txtKK.Text + "', NIK='" + this.txtNIK.Text + "', alamat='" + this.txtAlamat.Text + "', jenisKelamin='" + jenis_kelamin + "', tempatLahir='" + this.txtTempat.Text + "', tanggalLahir='" + dateTimePicker1.Text + "', noTelp='" + this.txtNoTelp.Text + "',foto=@images where noKK='" + this.txtKK.Text + "'";
+            cmd.Parameters.Add(new SqlParameter("@images", images));
+            cmd.ExecuteNonQuery();
+            koneksi.Close();
+            txtKK.Text = "";
+            txtNIK.Text = "";
+            txtNama.Text = "";
+            txtAlamat.Text = "";
+            rbPria.Checked = false;
+            rbWanita.Checked = false;
+            txtTempat.Text = "";
+            dateTimePicker1.Value = DateTime.Now;
+            txtNoTelp.Text = "";
+            Foto.ImageLocation = null;
+            display_data();
+            MessageBox.Show("Data Update Successfully");
+        }
+
+        private void btnCari_Click(object sender, EventArgs e)
+        {
+            koneksi.Open();
+            SqlCommand cmd = koneksi.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select * from [penerima] where namaPenerima='" + txtCari.Text + "'";
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            dgvBansos.DataSource = dt;
+            koneksi.Close();
+            txtCari.Text = "";
+        }
     }
 }
