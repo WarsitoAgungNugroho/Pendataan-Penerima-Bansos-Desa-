@@ -94,3 +94,16 @@ D:\ITO\PRONET\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\Dat
 D:\ITO\PRONET\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.csproj.CoreCompileInputs.cache
 D:\ITO\PRONET\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.exe
 D:\ITO\PRONET\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.pdb
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\bin\Debug\DataBansos.exe.config
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\bin\Debug\DataBansos.exe
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\bin\Debug\DataBansos.pdb
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.csproj.AssemblyReference.cache
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.Form1.resources
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.Home.resources
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.inputData.resources
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.Properties.Resources.resources
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.tentangApk.resources
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.csproj.GenerateResource.cache
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.csproj.CoreCompileInputs.cache
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.exe
+D:\berta\next\Pendataan-Penerima-Bansos-Desa--main\DataBansos\obj\Debug\DataBansos.pdb

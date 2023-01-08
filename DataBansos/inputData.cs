@@ -112,5 +112,18 @@ namespace DataBansos
             txtNoTelp.Text = "";
             Foto.ImageLocation = null;
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            koneksi.Open();
+            SqlCommand cmd = koneksi.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "delete from [penerima] where noKK ='" + txtKK.Text + "'";
+            cmd.ExecuteNonQuery();
+            koneksi.Close();
+            txtKK.Text = "";
+            display_data();
+            MessageBox.Show("Data Delete Successfully");
+        }
     }
 }
